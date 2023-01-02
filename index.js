@@ -3,7 +3,7 @@ import http from 'http'
 
 const servidor = http.createServer((req,res) => {
     res.writeHead(200,{'Content-Type' : 'application/json'})
-    res.write("Hola amigo como estas")
+    res.write("Hola amigo como estas amigo")
     res.send()
 })
 
